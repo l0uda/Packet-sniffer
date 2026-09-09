@@ -1,5 +1,4 @@
-Jednoduchý nástroj, který zpracuje pcap soubor a zobrazí informace o SSL spojení, případně odchytává živá SSL spojení probíhající 
-na specifikovaném síťovém rozhraní.
+Jednoduchý nástroj, který zpracuje pcap soubor a zobrazí informace o SSL spojení, případně odchytává živá SSL spojení probíhající na specifikovaném síťovém rozhraní.
 
 Specifikace implementace programu se nachází v souboru manual.pdf. Podrobnosti o možnostech spuštění se nachází v souboru Zadani.pdf.
 
