@@ -2,8 +2,8 @@ CFLAGS = -g
 
 all: sslsniff clean
 
-sslsniff: sslsniff.o argumentParse.o sniffer.o pcapanal.o
+sslsniff: src/sslsniff.o src/argumentParse.o src/sniffer.o src/pcapanal.o
 	gcc $(CFLAGS) -o $@ $^ -lpcap -lm
 
 clean:
-	rm -f *.o
+	rm -f src/*.o
